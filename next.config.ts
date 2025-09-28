@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com"],
   },
-  output: "export",
 };
 
 export default nextConfig;
