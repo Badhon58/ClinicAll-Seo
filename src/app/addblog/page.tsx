@@ -1,10 +1,10 @@
-import HomeBlog from "@/components/HomeBlog";
+import AddBlog from "@/components/AddBlog";
 import React, { Suspense } from "react";
 
 const page = () => {
   return (
-    <Suspense>
-      <HomeBlog />
+    <Suspense fallback="Loading..">
+      <AddBlog />
     </Suspense>
   );
 };

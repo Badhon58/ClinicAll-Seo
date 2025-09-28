@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.btn {
+  @apply 2xl:px-[28px] py-2 2xl:py-[13px] lg:px-[14px] lg:py-[6px] text-center hover:bg-[#E2136E] lg:mt-3 xl:mt-5 2xl:mt-[32px] mt-2 border border-black hover:border-[#E2136E] rounded-md font-medium hover:text-white w-[170px];
+}
+.blogImage {
+  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-27102024T104059-bg1.png')];
+}
