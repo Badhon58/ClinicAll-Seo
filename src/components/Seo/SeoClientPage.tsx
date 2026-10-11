@@ -8,5 +8,4 @@ const Seopage = dynamic(() => import("./Seopage"), {
 export default function SeoClientPage() {
     return <Seopage />;
 }
-import React from 'react'
 
