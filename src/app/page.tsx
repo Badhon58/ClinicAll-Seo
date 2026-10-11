@@ -35,12 +35,12 @@ export default function Home() {
       <Whoweare />
       <Doctors />
       <Specialize />
-      <Partner />
+      {/* <Partner />
       <Blog />
       <Client />
       <Diagnosis />
-      <Question />
-      <Download />
+      <Question /> */}
+      {/* <Download /> */}
       <Footer />
       <Seopage />
       <ScrollButton />
