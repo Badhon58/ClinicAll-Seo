@@ -1,0 +1,799 @@
+{
+  "NavbarMiddleSection": " ------------------- Navbar-------------------- ",
+  "Home": "Home",
+  "About Us": "About Us",
+  "Services": "Services",
+  "Call Doctor": "Call Doctor",
+  "Book Appointment": "Online Doctor Appointment",
+  "Health Package": "Health Package",
+  "Book Lab test": "Book Lab test",
+  "Buy Medicine": "Buy Medicine",
+  "Claim": "Claim",
+  "MediMart": "MediMart",
+  "Press Release": "Press Release",
+  "Contact Us": "Contact Us",
+  "Blogs": "Blogs",
+  "Download App": "Download App",
+  "Login": "Login",
+  "Register": "Register",
+
+  "Ecommerceprofile": " ------------ ",
+  "Checkout": "Checkout",
+
+  "Shopping Cart": "Shopping Cart",
+  "Product": "Product",
+
+  "UserProfile": "------------- UserProfile----------------",
+
+  "My Profile": "My Profile",
+  "Health Card": "Health Card",
+  "Claim History": "Claim History",
+  "Previous Appointments": "Previous Appointments",
+  "Orders": "Orders",
+  "Log Out": "Log Out",
+  "Account Delete": "Account Delete",
+
+  "Ecommerce": "-------------- MONEY COUNT------------------",
+  "numberconvert": "{{count}}",
+  "moneyCount": "BDT  {{count}}",
+  "Your Cart is Empty": "Your Cart is Empty",
+  "Add Product/Packages": "Add Product/Packages",
+  "Quantity": "Quantity",
+  "searchtext": "Find what you need . . .",
+
+  "homeSection": "## Home Section",
+  "herosectiontext": "Consult with a doctor anytime, anywhere! <br /> <span> Starting from BDT <strong> 33 </strong> </span> only",
+  "App store": "App store",
+  "Play Store": "Play Store",
+  "health care Whenever You need": "Health care Whenever You need",
+  "Purchase Your Package": "Purchase Your Package",
+  "Order Now": "Order Now",
+  "Find Your Specialist Doctors": "Find Your Specialist Doctors",
+
+  "Servicessection": "-------------Servicessection ---------------",
+
+  "Book Lab Test": "Book Lab Test",
+  "health care whenever you need": "Health care whenever you need",
+
+  "Mental Health": "Mental Health",
+  "Affordable Mental Health Services at Your Fingertips!": "Affordable Mental Health Services at Your Fingertips!",
+
+  "Discount Center": "Discount Center",
+  "Unlock exclusive discounts and save more": "Unlock exclusive discounts and save more",
+
+  "Make Claim": "Make Claim",
+  "Easily claim and enjoy your health care benefits!": "Easily claim and enjoy your health care benefits!",
+
+  "Health Checkup": "Health Checkup",
+  "Annual Health Checkup": "Annual Health Checkup",
+
+  "Package Gift": "Package Gift",
+  "Gift a health package to your favorite person": "Gift a health package to your favorite person",
+
+  "Other Services": "Other Services",
+  "health care whenever you needs": "Health care whenever you needs",
+
+  "You May Be Looking For": "You May Be Looking For",
+  "OurOnlineHealthServices": "Our Online Health Services",
+
+  "Package Language": " ----------------- Package Language ---------------",
+
+  "Health Packages": "Health Packages",
+
+  "gold": "gold",
+  "silver": "silver",
+  "bronze": "bronze",
+  "Doctor’s consultation": "( Doctor’s consultation )",
+  "all": "all",
+  "monthly": "monthly",
+  "yearly": "yearly",
+  "One-Time": "One-Time",
+  "instant-doctor": "instant-doctor",
+  "quarterly": "quarterly",
+  "half-yearly": "half-yearly",
+
+  "Buy Now": "Buy Now",
+  "View All Package": "View All Package",
+  "Hospital Partners": "Digital Medical Test (Hospital Partners)",
+  "Package Includes": "Package Includes",
+  "Buy Package": "Buy Package",
+  "Choose Online payment": "Choose Online payment",
+  "bkash Payment": "bkash Payment",
+  "Card Payment": "Card Payment",
+  "Continue to Payment": "Continue to Payment",
+
+  "Who We Are?": "Who We Are?",
+  "whowearetext": "The CliniCall Limited is to provide a comprehensive digital health solutions that integrates various health care services and connects patients to Online doctor BD. The company aims to empower everyone with easy access to online health services, improve communication between patients and medical professionals, and enhance the overall health care experience.",
+  "telemedicine_services": "<bold>Telemedicine service in Bangladesh : </bold> Direct consultation with Online Doctor BD via online video and audio calls.",
+  "hospital_cashback": "<bold>Hospital Cashback : </bold> Up to BDT 2,00,000 cashback for Clinical Health Package members to reduce medical expenses.",
+  "medicine_delivery": "<bold>Online Medicine Delivery : </bold> Order medicines online and get them delivered to your doorstep.",
+  "lab_test": "<bold>Lab Test : </bold> Easily book lab tests online with home sample collection.",
+  "Read More": "Read More",
+
+  "Meet Our Specialists Doctor & Book Appointment": "Meet Our Specialists Doctor & Book Appointment",
+  "View All Doctors": "View All BD Online Doctor",
+  "Find By Specialization": "Find By Specialized Doctor List",
+  "Show More": "Show More",
+  "discount_text": "<bold>Discount:</bold> Up to {{count}} %",
+  "View More": " View More",
+  "DigitalBangladeshDigitalHealth": "Digital Health Solutions",
+  "View All Blogs": "View All Blogs",
+  "The Stories We Love To Hear": "The Stories We Love To Hear",
+  "client_blog": [
+    {
+      "title": "Meet Dr. Tamanna Tabassum, our dedicated Clinical Manager, who works tirelessly every day to care for our patients.",
+      "description": "Take a glimpse into the CliniCall family! Meet Dr Tamanna Tabassum, clinical manager, as she shares her insights and experiences about working in an environment dedicated to making health care accessible to all. Stay tuned for more behind-the-scenes stories!"
+    },
+    {
+      "title": "Introducing Raisa Karim, our Key Account Manager, who is responsible for maintaining strong relationships between the clinic, patients, and partners.",
+      "description": "Take a glimpse into the CliniCall family! Meet Raisa Karim - Key Account Manager, as she shares her insights and experiences about working in an environment dedicated to making health care accessible for all. Stay tuned for more behind-the-scenes stories!"
+    },
+    {
+      "title": "Let’s get to know our HR & Finance Partner – Amber, her work process, and her experiences at the CliniCall.",
+      "description": "Take a glimpse into the CliniCall family! Meet Amber, our HR & Finance Partner, as she shares her insights and experiences about working in an environment dedicated to making health care accessible for all. Stay tuned for more behind-the-scenes stories! Amber Harun, Business Partner, Finance & HR, CliniCall Limited"
+    }
+  ],
+  "DIAGNOSIS AT YOUR DOORSTEP": "DIAGNOSIS AT YOUR DOORSTEP",
+  "Book Test": "Book Test",
+  "features": {
+    "online_lab_test": {
+      "title": "Online Lab Test Booking:",
+      "description": "Schedule your lab tests easily via our app or website for a hassle-free experience."
+    },
+    "home_sample_collection": {
+      "title": "Home Sample Collection (Only within Dhaka) : ",
+      "description": "Qualified professionals collect your samples from home, saving you time and effort."
+    },
+    "home_report_delivery": {
+      "title": "Home Report Delivery:",
+      "description": "Get your test results delivered to your doorstep for privacy and convenience."
+    },
+    "lab_test_discount": {
+      "title": "Comprehensive Tests at Affordable Prices:",
+      "description": "Choose from a variety of lab tests tailored to your health needs, all at competitive prices."
+    }
+  },
+  "qnatitle": "Frequently Asked Question",
+  "qnasubtitle": "Welcome to CliniCall's FAQ page! Here, you'll find answers to common questions about our telemedicine services. If you have any additional queries, please feel free to contact us.",
+  "Download the": "Download the",
+  "Clinicall App": "Clinicall App",
+  "downloadlink": "Get the link to download the app",
+
+  "Footertext": "-------------FooterText---------------",
+  "Oraddress": "Baridhara J Block, Dhaka, Bangladesh",
+  "mobile": "+88 096 776 010 50",
+  "Terms & Conditions": "Terms & Conditions",
+  "Privacy Policy": "Privacy Policy",
+  "Refund Policy": "Refund Policy",
+  "Our Partners": "Our Partners",
+  "Sign Up As A Doctor": "Sign Up As A Doctor",
+  "Login As A Regular User": "Login As A Regular User",
+  "Lab Test": "Lab Test",
+  "Medicine Order": "Medicine Order",
+
+  "HomeSeo": "--------------Home Seo------------",
+
+  "cliniCall": {
+    "title": "CliniCall - Best Online Medical Doctor Consultation in BD",
+    "description": "CliniCall is a leading telemedicine service in bangladesh the best <bold> online doctor consultation in BD. </bold> Our user-friendly platform allows you to access a wide range of medical services, including immediate consultations, specialized appointments, health packages and more. Whether you need a quick medical consultation or an in-depth specialist consultation for your health, CliniCall offers flexibility and convenience through both 24/7 online doctor Bangladesh."
+  },
+  "doctorConsultation": {
+    "title": "Comprehensive Online Health Care services",
+    "description": "CliniCall offers an extensive range of online health services to cater to various health care needs. Our platform allows you to consult bd online doctor for:"
+  },
+  "consultation": {
+    "immediateConsultations": {
+      "title": "Immediate Consultations :",
+      "description": "24/7 online doctor Bangladesh, Call a doctor directly for urgent medical advice without scheduling an appointment."
+    },
+    "specializedAppointments": {
+      "title": "Specialized Appointments :",
+      "description": "Book an Online medical doctor consultation from our specialized doctor list to get detailed medical advice and treatment."
+    }
+  },
+  "cliniCallDescription": {
+    "text": "Our health service in Bangladesh is accessible from anywhere, ensuring that you can connect with health care professionals no matter where you are. CliniCall’s telemedicine services provide not only doctor live chat but also doctor <bold> video call and audio call consultations</bold>, ensuring you receive the care you need."
+  },
+  "services": {
+    "onlineDoctorAppointments": "Explore our Online Doctor Appointment services.",
+    "healthPackages": "Discover our Health Packages for Unlimited online medical doctor consultation"
+  },
+  "healthPackage": {
+    "title": "Flexible Health Packages with Extensive Benefits",
+    "description": "CliniCall’s online health care services are designed to offer more than just <bold> unlimited online doctor consultations.</bold> Each package includes a range of additional health services, including : ",
+    "hospitalCashback": {
+      "title": "Hospital Cashback : ",
+      "description": "Benefit from up to 2,00,000 cashback on hospital services, reducing your overall health care expenses."
+    },
+    "opdServices": {
+      "title": "Outpatient Department (OPD) Services : ",
+      "description": "Access various outpatient services for comprehensive medical care."
+    },
+    "learnMore": {
+      "title": "Learn more about our Health Packages and their benefits.",
+      "description": ""
+    }
+  },
+  "telemedicine1": {
+    "title": "Benefits of telemedicine service in bangladesh",
+    "description": "<bold> Telemedicine </bold> is transforming online health care services in Bangladesh, particularly in areas where access to medical facilities can be challenging. CliniCall’s <bold> telemedicine services </bold> make it easy to receive quality care from anywhere in the country, without the need for physical clinic visits. Our platform ensures immediate access to medical professionals and continuous care through our comprehensive health packages."
+  },
+  "whyChooseCliniCall": {
+    "title": "Why Choose CliniCall",
+    "description": "CliniCall Limited is the only platform where a doctor picks up your call directly, providing real-time consultation whenever you need it. We understand your time is valuable, so we've designed our service to offer quick, direct access to medical expertise. Along with personalized care, you’ll also enjoy top-tier health insurance packages, exclusive discounts on diagnostics, convenient medicine delivery, and at-home lab tests. With CliniCall Limited, your health and convenience are always our top priority.",
+    "followUp": "We also offer personalized follow-up care to continue supporting you after your consultations.",
+    "learnMore": "Learn more",
+    "contactInfo": " about how CliniCall can support your health care needs and contact us here for further information about our services."
+  },
+  "Conclusion": "Conclusion",
+  "clinicallhomeDescription": "CliniCall is committed to delivering the best <bold> online doctor consultation in Bangladesh </bold> with a comprehensive range of services. From immediate consultations to specialized care and extensive online health care services, CliniCall ensures that you have access to high-quality health care from the comfort of your home. Explore our packages and services today, and take the first step towards better health with CliniCall.",
+
+  "About US PAGE": "------------ABOUT US PAGE---------------",
+  "Who We Are": " Who We Are",
+  "telemedicineTitle": "• Improve patient access to health care, telemedicine, and smart health : ",
+  "telemedicineDescription": "Provide a user-friendly platform that enables smooth interactions between patients and medical professionals for follow-up treatment, prescriptions, consultations, and scheduling appointments with specialists.",
+  "financialTitle": "• Enhance Financial Accessibility:",
+  "financialDescription": "Provide hospitalisation cashback to patients to lessen their financial strain and lower the cost of high-quality medical care.",
+  "medicineTitle": "• Smart Medicine Delivery : ",
+  "medicineDescription": "Make sure that patients receive their prescriptions on time and accurately, improving convenience and treatment plan adherence.",
+  "whoWeAreText": "Your who we are text in English",
+
+  "diagnostic_services": "• Offer Complete Diagnostic Services : ",
+  "diagnostic_description": "Facilitate simple lab test scheduling and processing with prompt, accurate findings, encouraging preventative health care.",
+  "long_term_plan": "• Achieve Sustainable Growth : ",
+  "long_term_description": "To guarantee long-term survival and ongoing enhancement of health care services, concentrate on sustainable business practices and financial growth.",
+  "wwdobjective": "By adhering to these objectives, Clinical Limited aims to provide a holistic and efficient smart health care solution that improves patient outcomes, enhances accessibility and affordability, and supports a high standard of medical care and service delivery.",
+
+  "objective_title": "Our Objective",
+  "objective_description": "Our objective is to revolutionize smart health care in Bangladesh by developing a comprehensive, technologically advanced platform that ensures universal access to high-quality health care services. CliniCall Limited aims to be a key player in building a Smart Bangladesh, where every citizen can achieve optimal health and well-being through innovative, accessible, and affordable health care solutions.",
+
+  "mission_title": "Our Mission",
+  "mission_text": "To collaboratively create a smart health ecosystem that leverages digital innovation and smart technologies to provide comprehensive, accessible, and affordable health care solutions for all citizens of Bangladesh.",
+
+  "vision_title": "Our Vision",
+  "vision_text": "Our vision is to be a pioneering health tech company that transforms the health care landscape in Bangladesh by integrating advanced digital technologies, and empower every citizen with the tools and resources they need to achieve optimal health and well-being, thereby supporting the national objective of creating a Digital Bangladesh.",
+  "What We Do": "What We Do?",
+  "mentalHealthCounsellor": "Mental Health Counsellor",
+  "followingDoctors": "Following Online Medical Doctor Consultations Are Available",
+  "noDoctorFound": "No doctor Found",
+  "freeAvailable": "Available",
+  "notAvailable": "Not Available",
+  "bookNow": "Book Now",
+  "consultationFee": "Consultation Fee",
+  "aboutDoctor": "About Doctor",
+  "Continue": "Continue",
+  "_________inputfield__________": "_________inputfield__________ ",
+  "firstName": "First Name",
+  "enterFirstName": "Enter First Name",
+  "lastName": "Last Name",
+  "enterLastName": "Enter Last Name",
+  "fullName": "Full Name",
+  "enterFullName": "Enter Your Full Name",
+  "fullNamepackage": "Full Name",
+  "enterFullNamepackage": "Enter Full Name",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "others": "Others",
+  "age": "Age",
+  "agePlaceholder": "Age: (E.g. 25)",
+  "phoneNumber": "Mobile Number",
+  "phonePlaceholder": "E.g. +8801XXXXXXXX",
+  "weight": "Weight",
+  "weightPlaceholder": "Weight: (E.g. 75) kg",
+  "email": "Email",
+  "emailPlaceholder": "E.g. example@gmail.com ",
+  "address": "Address",
+  "addressPlaceholder": "Enter your street name and house number",
+  "district": "District",
+  "district_placeholder": "Enter District",
+  "thana": "Thana",
+  "thana_placeholder": "Enter Thana",
+  "dateOfBirth": "Date of Birth",
+  "postal_code": "Postal Code",
+  "postal_code_placeholder": "Enter your postal code",
+  "enterDateOfBirth": "Enter your date of birth",
+  "bloodGroup": "Blood Group",
+  "changeProfilePhoto": "Change profile photo",
+  "updateProfile": "Update Profile",
+  "nidNumber": "NID No",
+  "note": "Note",
+  "notePlaceholder": "Enter your note",
+  "password": "Password",
+  "enterPassword": "Enter your password",
+  "confirmPassword": "Confirm Password",
+  "enterConfirmPassword": "Enter your confirm password",
+  "resetPassword": "Reset Password",
+  "backToLogin": "Back to Log In",
+  "discountPartnerDetails": "Discount Partners Details",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "noAccount": "Don't have an account?",
+  "registration": "Registration",
+  "alreadyHaveAccount": "Already have an account?",
+  "otpVerification": "OTP Verification",
+  "verificationCodeMessage": "Enter the 4-digit verification code that was sent to your phone number.",
+  "didntReceiveCode": "Didn't receive code?",
+  "resend": "Resend",
+  "enterRegistrationDetails": "Please enter your details to complete the Registration.",
+
+  "accountDeletion": "Account Deletion",
+  "accountDeletionProcess": "Quick and easy process to delete your account.",
+  "forgetPassword": "Forget Password",
+  "resetInstructions": "No Worries, we'll send you reset instructions",
+
+  "button": "______button______",
+  "added": "Added",
+  "add_to_cart": "Add to Cart",
+  "submit": "Submit",
+  "shopmore": "Shop More",
+  "Verify": "Verify",
+  "Cancel": "Cancel",
+  "Confirm": "Confirm",
+  "loadmore": "Load More",
+
+  "prescriptionCheckbox": "Check this box to receive your prescription by email",
+  "saveNext": "Save & Next",
+  "scheduledOn": "Scheduled on",
+  "dateNotAvailable": "Date not available",
+  "expectedTime": "Expected Time",
+  "noScheduledTime": "No scheduled time",
+  "notScheduled": "Not Scheduled",
+
+  "Payment INfo": "-------------Payment Info---------------",
+
+  "selectPaymentMethod": "Select Payment Methods",
+
+  "payment": {
+    "bkash": "bKash Payment",
+    "card": "Card Payment",
+    "continueToPayment": "Continue to Payment",
+    "loading": "Loading..."
+  },
+  "labcontent": "--------Lab Content --------",
+  "whyChooseCliniCalllab": "Why Choose “CliniCall” Online health services",
+  "trustedLabs": "Online medical check-up",
+  "trustedLabsDescription": "With our fast and easy lab test online booking, you can schedule your test in no time—directly through our app or website.",
+  "homeVisit": "Lab test home collection",
+  "homeVisitDescription": "Skip the trip to the lab! Our trained professionals come to you, and collect samples from your home or office at a time that fits your schedule.",
+  "timelyReports": "Timely and Accurate Reports",
+  "timelyReportsDescription": "Get your test results delivered directly to your home or office. For extra convenience, you can also access your results online with just a few taps.",
+  "discount": "Up to 55% OFF",
+  "discountDescription": "Comprehensive Tests at Affordable Prices: Choose from a variety of lab tests tailored to your health needs, all at competitive prices.",
+  "doctorseo": "------------Doctor Seo ----------",
+  "doctorConsultationText": "Online Medical Doctor Consultation & Appointments from Specialized Doctor List",
+  "doctorDescription": "At <bold> CliniCall Limited </bold> we’re committed to making online health services easier and more convenient for you. Whether you need a quick digital health solutions or a specialist appointment, we’ve got you covered. With our <bold> online doctor appointment </bold> service, you can talk to a doctor from anywhere, anytime. Plus, if you’ve purchased one of our exclusive <bold> health packages </bold>you get 24/7 unlimited doctor consultation and more!",
+  "directDoctorAccess": "Direct Doctor Access with online health services",
+  "healthPackageDescription": "When you buy any of our <bold>health packages,</bold> you get the added convenience of <bold>directly calling</bold> a doctor without any hassle. No need to wait for an appointment—just call and get instant medical advice. This feature is designed for those times when you need immediate help but don’t want to go through the usual process of booking and waiting.",
+  "specialistAppointment": "Online Specialist Doctor Appointments at Your Fingertips",
+  "specialist_info": "In addition to general online medical doctor consultation,<bold> CliniCall</bold> also offers <bold>  specialist appointments. </bold> If you need to see a specialist—whether it’s a cardiologist, dermatologist, or any other expert—you can book an appointment through our platform. It’s fast, easy, and ensures you get the specialized care you need without any delays.",
+  "instantDoctorAccess": "<bold>Instant Doctor Access :</bold> Purchase any of our health packages and enjoy direct access to a doctor over the phone, whenever you need it.",
+  "specialist_booking": "<bold>  Easy Specialist Booking : </bold> Whether it’s a general consultation or a specialist appointment, you can book it effortlessly through our app or website.",
+  "convenience": "<bold> Convenience :</bold> Skip the long waits and travel—get the care you need right from your home.",
+  "affordable_packages": "<bold>Affordable Packages :</bold> Our health packages are designed to give you the best value, combining <bold>online doctor help, specialist care, hospital cashback</bold> and <bold>OPD services.</bold> These packages are designed to provide comprehensive health care at competitive prices, ensuring you get the best care without breaking the bank.",
+  "how_to_get_started_title": "How to Get Started",
+  "how_to_get_started_description": "It’s easy to begin using <bold>CliniCall.</bold> Simply purchase one of our health packages, and you’ll gain immediate access to direct doctor calls. You can also book specialist appointments without a health package. You can book 24/7 Online doctor Bangladesh.",
+  "clinicall_promise": "At <bold>CliniCall,</bold> we’re here to ensure your health care journey is as smooth and hassle-free as possible. <bold>Book your online doctor appointment</bold> or specialist consultation today and experience the future of digital health solutions!",
+  "labSeo": "------------------Lab Seo-----------------",
+  "lab_test_booking": "Online Medical Lab Test: Quick, Easy, and Hassle-Free with CliniCall",
+  "labTestBookingdescription": "At <bold>CliniCall</bold>, we’ve made <bold>lab test online booking</bold> simpler than ever. Why go through the hassle of visiting a lab when you can book your tests from the comfort of your home or office? With just a few clicks, you can easily schedule your test, and we’ll handle the rest.",
+  "why_choose_online_booking": "Why Choose CliniCall’s Lab Test Online Booking?",
+  "online_lab_test_booking": {
+    "title": "Online Lab Test Booking :",
+    "description": "Schedule your lab tests easily via our app or website for a hassle-free experience."
+  },
+  "home_office_sample_collection": {
+    "title": "Home/Office Sample Collection",
+    "description": "Skip the trip to the lab! Our trained professionals come to you, and collect samples from your home or office at a time that fits your schedule."
+  },
+  "online_report_delivery": {
+    "title": "Online Report Delivery :",
+    "description": "For privacy and convenience, get your test results delivered to your Whats app or email."
+  },
+  "affordable_tests": {
+    "title": "Comprehensive Tests at Affordable Prices:",
+    "description": "Choose from a variety of lab tests tailored to your health needs, all at competitive prices."
+  },
+  "cliniCall_advantage": "The CliniCall Advantage",
+  "accurate_reliable": {
+    "title": "Accurate & Reliable",
+    "description": "We work with certified labs to ensure accurate results, so you can trust the quality of your tests."
+  },
+  "affordable_pricing": {
+    "title": "Affordable Pricing",
+    "description": "Our services are designed to give you the best health care experience at competitive prices."
+  },
+  "no_more_waiting": {
+    "title": "No More Waiting",
+    "description": "Book your test online and get the samples collected right from your doorstep. No more long waits or unnecessary trips."
+  },
+  "why_wait": "Why wait? Experience the ultimate convenience with CliniCall’s lab test online booking. Book your test now and let us take care of everything—from sample collection to report delivery—right at your doorstep!",
+
+  "HealthSeo": "-------HealthSeo----------",
+  "healthpackagetitle": "Health Insurance in Bangladesh : Discover Affordable Health Packages with Extra Benefits",
+
+  "---------------MediMartPage----------------------": "---------MedimartPage----------------",
+
+  "categories": "Categories",
+  "viewAll": "View all",
+  "uploadPrescription": "Upload Prescription",
+  "orderViaWhatsapp": "Order via Whatsapp",
+  "offers": "Offers",
+  "callDoctor": "Call Doctor",
+  "order_via_prescription": "Order via Prescription",
+  "Upload Report": "Upload Report",
+  "---------------MediMartSeo----------------------": "---------MediMartSeo----------------",
+  "online_medicine": "Online Medicine Home Delivery with CliniCall",
+  "cliniCall_medicine_text": "At <bold> CliniCall,</bold> we’re making medicine shopping easier than ever! Our <bold> online medicine home delivery service </bold> ensures that you get your essential medicines delivered right to your doorstep—whether you're in Dhaka or Chittagong. Forget the hassle of visiting pharmacies, now with just a few clicks, your medicines will come to you quickly, reliably, and at affordable prices.",
+  "choose_online_medicine_delivery": "Why Choose CliniCall’s Online Medicine Home Delivery Service?",
+  "ultimate_convenience": "<bold> Ultimate Convenience : </bold> Skip the long queues and pharmacy trips. Place your order from the comfort of your home or office, and we’ll handle the rest.",
+  "fast_reliable_delivery": "<bold>Fast & Reliable Delivery : </bold> Our <bold>online medicine home delivery</bold> service covers both Dhaka and Chittagong, ensuring your medicines arrive on time when you need them the most.",
+  "extensive_range_of_medicines": "<bold>Extensive Range of Medicines : </bold> From prescription drugs to over-the-counter medicines, CliniCall offers a wide variety of products to meet all your health care needs.",
+
+  "affordable_prices": "<bold>Affordable Prices : </bold> Not only do we deliver right to your door, but we also offer competitive pricing, making health care more accessible and convenient for you.",
+  "how_it_works": "Online medicine shop bd",
+  "order_online": "<bold>1. Order Online :</bold> Visit our app or website to easily select the medicines you need. Our simple process ensures a smooth and quick experience.",
+  "home_delivery": "<bold>1. Home Delivery :</bold> Once you place your order, we take care of the rest. Whether you're at home or in the office, we deliver your medicines quickly across Dhaka and Chittagong.",
+  "customer_support": "<bold>3. Customer Support:</bold> Have questions? Our friendly customer support team is ready to assist you at any stage of the process.",
+  "hassle_free_medicine": "Experience Hassle-Free Medicine Delivery Today!",
+  "online_medicine_home_delivery": "With <bold>CliniCall's online medicine home delivery</bold>, getting the medicines you need has never been easier. Whether you're in Dhaka or Chittagong, we’re here to provide you with fast, reliable service at the best prices.",
+  "order_now_convenience": "Order now and enjoy the ultimate convenience of <bold>online medicine home delivery</bold> with CliniCall!",
+  "enterDetails": "Please enter your details.",
+
+  "_________userclaim________": "_________UserClaim_________",
+  "claimJourney": "Claim Journey",
+  "claimSummary": "Your Initiate Claim Summary",
+  "basicInformation": "Basic Information",
+  "organizationName": "Name of Organization",
+  "enterOrganizationName": "Enter Organization Name",
+  "patientName": "Name of Patient",
+  "enterPatientName": "Enter Patient Name",
+  "relationshipWithEmployee": "Relationship with Employee",
+  "select_relationship": "Select Relationship",
+  "myself": "Myself",
+  "spouse": "Spouse",
+  "parents": "Parents",
+  "children": "Children",
+  "_________ContactUS______": "______ContactUS_________",
+  "get_in_touch": "Get in touch",
+  "office_timings": "Office Timings",
+  "office_hours": "<span className:`font-samibold`> Working days: Sundays-Thursdays (9:00am to 6:30pm) <br/> Weekend: Friday and Saturday </span>",
+  "email_address": "Email Address",
+  "emailcont": "info@theclinicall.com",
+  "phone_number": "Phone Number",
+  "phone": "+880 96 776 010 50",
+  "live_chat": "Live Chat",
+  "chat": "+8801711633519",
+  "office_address": "Office Address",
+  "______CheckOUT_______": "______CheckOUT_______",
+
+  "customer_information": "Customer Information",
+  "add_new_address": "Add New Address",
+  "choose_payment_option": "Choose Payment Option",
+  "cash_on_delivery": "Cash On Delivery",
+  "online_payment": "Online Payment",
+  "choose_online_payment": "Choose Online Payment",
+  "bkash_payment": "Bkash ",
+  "card_payment": "Card",
+  "product_summary": "Product Summary",
+  "product_price": "Sub-Total",
+  "home_delivery_Checkout": "Home Delivery",
+  "total_price": "Total Price",
+  "sample_collection": "Sample Collection Time",
+  "collection_Date": "Date",
+  "collection_time": "Time",
+  "home_sample_collection_fee": "Home Sample Collection Fee",
+  "hospital_cashback_package": " Hospital Cash back up to <bold> BDT {{count}} </bold> ",
+  "per_claim_benefit": "Per Claim Benefit",
+  "per_day_benefit": "Per Day Benefit",
+  "isolation_coverage": "Isolation Coverage",
+  "opd_consultation": "OPD (Consultation only)",
+  "package_includes": "Package Includes",
+  "telemedicine": "telemedicine",
+  "telemedicinetext": "Unlimited Audio and Video Consultation",
+  "userpackage": {
+    "username": "Name",
+    "customerId": "Customer ID",
+    "packageName": "Package Name",
+    "PackageDuration": "Validity"
+  },
+  "conditionapply": "Conditions Apply",
+  "All Products": "All Products",
+  "Lab Cart": "Lab Cart",
+  "schedule": "Schedule is not available",
+  "scheduledesc": " It looks like your Doctor all slot are booked. Add your <br /> contacts now to stay connected and stay organized.",
+  "Report": "Report",
+  "choose_delivery_option": "Choose Delivery Option",
+  "insideDhaka": "Inside Dhaka",
+  "outsideDhaka": "Outside Dhaka",
+  "checkoutCondition": "Minimum order amount is ৳300. Please add more items to your cart to proceed",
+  "off": "Off",
+  "relatedProduct": "Related Product",
+  "cardpayment": "20 % discount on Card Payment",
+  "onApp": "Complete health care in one App",
+  "didnotbuyanypackage": "You Didn't buy Any package",
+  "downloadapp": "Download App & Get Doctor Consultation",
+  "undptitle": "Swapno Project 2 : CliniCall’s Leadership in Digital Micro-Insurance",
+  "undpdescription": "Supported by UNDP and implemented by Pragati Life Insurance PLC, Swapno Project 2 brings digital micro-insurance to marginalized communities. CliniCall Limited acts as the technology and telemedicine partner, enabling cashless healthcare through QR-enabled smart cards at authorized pharmacies and clinics.<br />  <br /> Feature phone users consult doctors via a toll-free hotline, while smartphone users access video or audio consultations through the app. For services outside the authorized network, reimbursements are provided directly to MFS accounts.<br />  <br /> Swapno Project 2 is more than healthcare—it is a commitment to a safer, digitally empowered future for underserved populations.",
+  "braccard": "Do You Have  Credit Card?",
+  "UseaPromo": "Use a Promo",
+  "EnterCoupon": "Enter coupon code",
+  "ApplyCoupon": "Apply Coupon",
+  "cardplaceholder": "Enter First 6 Digit of Your Credit Card Number",
+  "GetDiscount": "Get Discount",
+  "bracCardDiscount": "You Recived {{count}}% discount on Card Payment",
+  "Order Details": "Order Details",
+  "ViewDetails": "View Details",
+  "MyOrder": "My Order",
+  "AmountPayable": "Amount Payable",
+  "Status": "Status",
+  "invalidCode": "Invalid Card Discount Code!",
+  "healthcheckUplabpackage": "Health Checkup Package",
+  "labdiscount": "Discount",
+  "price": "Price",
+  "labpackage": "Health CheckUp",
+  "free": "Free",
+  "mainhealthpackage": "Online Health Services (Package)",
+  "LabTestHeader": "Medical Lab Test",
+  "AddLabTest": "Add LabTest",
+  "package": "This Service Is Available For Users Aged <bold> 18 </bold> To <bold> 60 </bold> Years",
+  "tac": {
+    "title": "Terms and Conditions of CliniCall Limited",
+    "lastUpdated": "Last Updated: 24.12.2024",
+    "intro": "CliniCall Limited is an innovative health technology company in Bangladesh offering telemedicine services and hospitalization cashback benefits. By using our website, mobile app, or services, you agree to these terms and conditions. Please read them carefully.",
+
+    "section1Title": "1. Introduction",
+    "section1Desc": "CliniCall Limited is a digital health care platform connecting patients with licensed doctors directly. Our mission is to make health care accessible and affordable for everyone. By using our app, website, or services, you agree to abide by our policies and guidelines.",
+
+    "section2Title": "2. Description of Services",
+    "section2Intro": "Our services include:",
+    "telemedicineTitle": "Telemedicine Services:",
+    "telemedicineDesc": " Online health consultations with licensed doctors.",
+    "cashbackTitle": "Hospitalization Cashback:",
+    "cashbackDesc": " Financial support under specific conditions for hospital admissions.",
+    "documentationTitle": "Digital Health Documentation:",
+    "documentationDesc": " Easy storage for your medical reports and prescriptions.",
+    "agetitle": "Age Eligibility",
+    "agedesc": "This service is available for users aged 18 to 60 years. Individuals below 18 years will be considered as children.",
+
+    "section2Note": "The availability of services may vary depending on the package or membership you choose.",
+
+    "section3Title": "3. User Responsibilities",
+    "section3Intro": "Users are required to adhere to the following responsibilities while using our platform",
+    "responsibility1Title": "Provide Accurate Information:",
+    "responsibility1Desc": " Accurate details are mandatory during registration.",
+    "responsibility2Title": "Responsible Use:",
+    "responsibility2Desc": " Misuse of the platform is strictly prohibited.",
+    "responsibility3Title": "Compliance with Laws:",
+    "responsibility3Desc": " Users must comply with all applicable laws and organizational regulations.",
+    "section3Note": "Failure to meet these responsibilities may result in necessary action from CliniCall Limited.",
+
+    "section4Title": "4. Payment Policy",
+    "payment1Title": "Payment Methods:",
+    "payment1Desc": " Payments can be made through bKash, Rocket, Nagad, and other digital payment systems.",
+    "payment2Title": "Refund Policy:",
+    "payment2Desc": " Payments are non-refundable unless specified under special conditions.",
+    "payment3Title": "Service Activation:",
+    "payment3Desc": " Services will be activated upon successful payment.",
+
+    "section5Title": "5. Privacy Policy",
+    "section5Intro": "CliniCall Limited is committed to protecting your personal information. Our privacy policy outlines how we collect, store, and use your data.",
+    "privacy1Title": "Data Collection:",
+    "privacy1Desc": " Name, phone number, email address, and medical information.",
+    "privacy2Title": "Purpose of Data Usage:",
+    "privacy2a": "To deliver services.",
+    "privacy2b": "Data analysis to improve services.",
+    "privacy2c": "Legal and administrative requirements.",
+    "privacy3Title": "Data Security:",
+    "privacy3Desc": " Your information is safeguarded using encryption technologies.",
+
+    "section6Title": "6. Cancellation Policy",
+    "section6Intro": "CliniCall Limited reserves the right to cancel user access at any time if:",
+    "section6a": "The user violates the terms and conditions.",
+    "section6b": "The platform is misused.",
+    "section6c": "Incorrect information is provided.",
+    "section6Note": "Notification of cancellation will be sent via email or SMS.",
+
+    "section7Title": "7. Limitation of Liability",
+    "section7Intro": "CliniCall Limited shall not be held liable for:",
+    "section7a": "Misuse of the platform.",
+    "section7b": "Incorrect use of information.",
+    "section7c": "Issues related to third-party interactions.",
+
+    "section8Title": "8. CliniCall Limited is a health technology company that connects patients with licensed doctors through telemedicine and other digital healthcare services. We are not an insurance company.",
+    "section8a": "In our health package, hospitalization and OPD cashback benefits are provided completely free of cost. CliniCall does not charge any fee for these cashback benefits. We only charge for telemedicine services and the use of our digital platform.",
+    "section8b": "The cashback benefits are provided by our partner insurance company/provider. CliniCall’s role is limited to enabling healthcare access and connecting customers with the insurance provider through our platform. Any claim, verification, or approval related to the cashback is entirely the responsibility of the respective insurance provider.",
+    "section8c": "We also provide necessary customer service to ensure that our valued customers receive accurate information and proper support.",
+
+    "section9Title": "9. CliniCall Limited is a health-tech platform that connects patients with licensed doctors through telemedicine.",
+    "section9a": "CliniCall does not provide any medical treatment directly.",
+    "section9b": "All medical advice, prescriptions, and treatment decisions are the sole responsibility of the doctor.",
+    "section9c": "CliniCall is not liable for the outcome of any consultation or treatment provided by the doctor.",
+    "section9d": "Patients are advised to follow the doctor’s instructions and seek in-person medical care if required.",
+
+    "section10": {
+      "title": "10. Misconduct & Harassment Policy:",
+      "description": "If any user—whether subscribed to a package or using audio/video doctor calls without a package—engages in sexual harassment, inappropriate behavior, or any form of misconduct towards a doctor, CliniCall reserves the right to immediately deactivate the user’s service ID. <br/> No refund will be issued in such cases."
+    },
+
+    "section11Title": "12. Changes to Terms and Conditions",
+    "section11Desc": "We reserve the right to update these terms and conditions at any time. Changes will take effect once posted on our website or app.",
+
+    "---section12Title---": "12. Contact Us",
+    "section12Title": "Contact Us",
+    "section12Intro": "For questions regarding these terms or our services, please contact us:",
+    "contactEmailTitle": "Email:",
+    "contactHotlineTitle": "Hotline:",
+
+    "closing": "Your trust is our priority. Stay with CliniCall Limited and explore new horizons in health care."
+  },
+  "insuranceTerms": {
+    "title": "Insurance Services – Terms & Conditions",
+    "lastUpdated": "Last Updated: 24.12.2024",
+    "intro": "All insurance products and insurance benefits available through the CliniCall platform are provided and underwritten by Protective Life Insurance Company (“Insurance Provider”), subject to the applicable insurance policy, terms and conditions, eligibility criteria, exclusions and applicable laws and regulations.",
+
+    "section1Title": "1. Insurance Provider",
+    "section1Desc": "All insurance products and insurance benefits available through the CliniCall platform are provided and underwritten by Protective Life Insurance Company (“Insurance Provider”), subject to the applicable insurance policy, terms and conditions, eligibility criteria, exclusions and applicable laws and regulations.",
+
+    "section2Title": "2. Role of CliniCall",
+    "section2Desc": "CliniCall Limited (“CliniCall”) is not an insurance company, insurer, underwriter, broker or claim-settling entity. CliniCall acts solely as a Technology and Service Facilitation Partner of the Insurance Provider and provides the digital technology platform through which customers may access information and services related to the applicable insurance products.",
+
+    "section3Title": "3. Claim Documentation Facilitation",
+    "section3Desc": "Where applicable, CliniCall may receive, collect and facilitate the submission of claim-related documents and information from customers through its technology platform or designated service channels. CliniCall's receipt or forwarding of claim documents does not constitute claim approval, acceptance, assessment or settlement. All claim assessment and decisions remain solely with the Insurance Provider.",
+
+    "section4Title": "4. Claim Assessment and Settlement",
+    "section4Desc": "Protective Life Insurance Company is solely responsible for reviewing, assessing, approving or rejecting insurance claims and determining the amount of any payable insurance benefit. Upon approval of an eligible claim, the applicable insurance benefit or claim payment shall be made directly by Protective Life Insurance Company to the eligible customer or beneficiary, in accordance with the applicable insurance policy. No insurance claim payment or insurance benefit is paid through, by or from CliniCall Limited.",
+
+    "section5Title": "5. No Underwriting or Insurance Liability",
+    "section5Desc": "CliniCall does not underwrite insurance policies, determine insurance coverage, determine claim eligibility, assess the financial value of claims, approve or reject claims, or assume any obligation to pay insurance benefits. Any decision regarding coverage, eligibility, claim validity, claim amount or settlement shall be made exclusively by the Insurance Provider.",
+
+    "section6Title": "6. No Guarantee of Claim Payment",
+    "section6Desc": "The availability or purchase of an insurance product through CliniCall does not guarantee that a customer will receive any particular insurance benefit or claim payment. All claims remain subject to the applicable policy terms, conditions, exclusions, eligibility requirements, supporting documentation and the assessment and decision of the Insurance Provider.",
+
+    "section7Title": "7. Customer Support",
+    "section7Desc": "CliniCall may provide technology-enabled assistance to customers in relation to the submission or transmission of claim-related documents and information. Such assistance is provided solely for facilitation purposes and shall not be interpreted as an assurance, recommendation, approval or guarantee of any insurance claim or benefit.",
+
+    "section8Title": "8. Insurance Policy Prevails",
+    "section8Desc": "In the event of any inconsistency between information displayed on the CliniCall platform and the terms of the applicable insurance policy, the terms and conditions of the insurance policy issued by Protective Life Insurance Company shall prevail. Customers are advised to review the applicable policy terms, coverage limits, exclusions, eligibility requirements and claim procedures before using any insurance-related service.",
+
+    "section9Title": "9. Limitation of CliniCall's Responsibility",
+    "section9Desc": "To the extent permitted by applicable law, CliniCall shall not be responsible or liable for any insurance-related decision, including claim approval, rejection, assessment, delay, determination of coverage or amount of benefit payable by the Insurance Provider. Any dispute concerning insurance coverage, policy interpretation, claim eligibility, claim assessment or claim settlement shall be addressed in accordance with the applicable insurance policy and the procedures established by the Insurance Provider."
+  },
+  "-----secondOpeniontac------": "----Second Opinion tac-----",
+  "sotac": {
+    "title": "11. Second Medical Opinion (Second Medical Opinion) – Terms & Conditions",
+    "section1": {
+      "title": "11.1 Nature of Service",
+      "description": "The Second Medical Opinion service (“Service”) provided by CliniCall Limited is intended solely for informational and advisory purposes. The Service does not constitute medical consultation, diagnosis, or direct treatment."
+    },
+    "section2": {
+      "title": "11.2 No Doctor-Patient Relationship",
+      "description": "Use of this Service does not establish a doctor-patient relationship between the user and any consulting physician, whether local or international."
+    },
+    "section3": {
+      "title": "11.3 Scope of Opinion",
+      "description": "The consulting physician shall review the medical records, reports, and information provided by the user and offer an opinion regarding : ",
+      "points": {
+        "1": "The current diagnosis",
+        "2": "Suggested or alternative treatment options",
+        "3": "Recommended next steps in management"
+      },
+
+      "limitationtitle": "The physician shall not : ",
+      "limitations": {
+        "1": "Prescribe medications",
+        "2": "Provide direct treatment plans for execution",
+        "3": "Offer emergency medical advice"
+      }
+    },
+    "section4": {
+      "title": "11.4  Limitation for International Doctors",
+      "description": "In compliance with the applicable laws and regulations of Bangladesh, international physicians engaged through CliniCall are strictly prohibited from providing medical consultation, prescriptions, or direct treatment advice. Their role is limited to providing a second opinion only."
+    },
+    "section5": {
+      "title": "11.5 User Responsibility",
+      "description": "The user acknowledges and agrees that : ",
+      "points": {
+        "1": "Any decision regarding treatment shall be taken in consultation with their primary treating physician.",
+        "2": "CliniCall and its associated physicians shall not be held liable for any medical decisions made by the user based on the second opinion."
+      }
+    },
+    "section6": {
+      "title": "11.6 Accuracy of Information",
+      "description": "The quality and relevance of the second opinion depend on the accuracy and completeness of the information provided by the user. CliniCall shall not be responsible for any incorrect or incomplete information submitted."
+    },
+    "section7": {
+      "title": "11.7 No Emergency Use",
+      "description": "This Service is not intended for emergency medical situations. Users are advised to immediately contact local emergency services or visit the nearest healthcare facility in case of emergency."
+    },
+    "section8": {
+      "title": "11.8 Limitation of Liability",
+      "description": "CliniCall Limited shall not be liable for : Any direct, indirect, incidental, or consequential damages arising from the use of the Service,Any misinterpretation or misuse of the medical opinion provided ."
+    },
+    "section9": {
+      "title": "11.9 Acceptance of Terms",
+      "description": "By using this Service, the user acknowledges that they have read, understood, and agreed to these Terms & Conditions."
+    }
+  },
+
+  "-----------physical doctor -------------": "",
+  "item": "Item",
+  "selectdate": "Date",
+  "selectdateplaceholder": "Select a Date",
+  "selecttime": "Time",
+  "selecttimeplaceholder": "Select a Time",
+  "Weight": "Weight",
+  "weightplaceholder": "Weight (e.g. 65 kg)",
+
+  "Home visit by General Physician": "Doctor @ Home",
+  "GP Doctor Consultation": "Family Physician",
+  "Home visit by Specialist Doctor": "Doctor @ Home ",
+  "Specialist Doctor @Home": "Specialist Doctor",
+  "selectspecialistdoctor": "Select Specialist",
+  "bookServices": "Doctor @ Home",
+  "scheduleService": "Book Your Service Here",
+  "callphone": "Call us to get in touch",
+  "physicaldoctor": "Doctor @ Home",
+  "physicaldoctordesc": "Your Physical Doctor",
+  "patientdetalis": "Patient Details",
+  "paymentphy": "Payment",
+  "deletenote1": "All your data will be permanently deleted.",
+  "deletenote2": "Your account will not be recoverable after 90 days of deletion.",
+  "deletenote3": "Your important information should be backed up before deleting.",
+  "deletenote4": "All data will be removed according to our privacy policy.",
+
+  "------------------": "-------------------",
+  "Babysitter": "Baby Sitter",
+  "micrositetitle": "Complete Healthcare in One App",
+  "calldoctor": "Call Doctor 24/7",
+  "packagetitle": "Buy Health Package",
+  "packagedesc": "Cashback up to BDT 200k on hospitalization *",
+  "--------activehealthpackage----------": "",
+  "active": {
+    "healthpackage": "Active Health Package"
+  },
+  "valid": "Valid Thur",
+  "healthpackagetit": "All Health Package",
+  "video": "Video Call",
+  "gp": {
+    "title": "GP Star ⭐",
+    "description": " Congruatulations you get a {{count}} % discount",
+    "button": "Close"
+  },
+  "PatientInfo": "Patient Info",
+  "Date&Time": "Date & Time",
+  "Prescription": "Prescription",
+  "AppointmentStatus": "Appointment Status",
+  "upload": {
+    "title": "Title",
+    "entrytitle": "Enter Title",
+    "description": "Description",
+    "entrydescription": "Entry Description"
+  },
+  "enterNID": "Enter your NID",
+  "selectblood": "Select Blood Group",
+  "secondOpenion": "Second Opinion",
+  "secondOpeniondescription": "Global Expertise Trusted advice",
+  "browseByCategory": "Browse by Category",
+  "secondOpenionTitle": "Second Opinion",
+  "appointmentSuccess": "Your appointment request has been received. Our customer care center will contact you soon.",
+  "ClinicallOverview": "CliniCall Overview",
+  "PatientFormInfo": "Data Collection Form",
+  "PatientFormInfo2": "Patient Information & Booking Details",
+  "caregiver": {
+    "---baby sitter": "--- Baby Sitter ---",
+    "selectPackage": "Pick your preferred package",
+    "SelectTime": "Choose a time",
+    "selecteDate": "Choose your date",
+    "amountDetails": "Amount Details",
+    "packagePrice": "Package Price",
+    "numberOfDays": "Number of Days",
+    "totalAmount": "Total Amount",
+    "serviceHeadline": "Choose your service"
+  },
+  "Critical": "Critical",
+  "Normal": "Normal",
+  "Daily": "Daily",
+  "withfood": "With Food",
+  "care_title": "Schedule your service here"
+}

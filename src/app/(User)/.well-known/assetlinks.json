@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.clinicall.clinicallapp",
+      "sha256_cert_fingerprints": [
+        "24:CC:6D:37:2C:37:1D:9E:BA:A9:32:6C:29:95:E5:0D:46:F8:47:76:A4:EC:58:68:23:92:FD:26:2A:DF:1D:6C"
+      ]
+    }
+  }
+]

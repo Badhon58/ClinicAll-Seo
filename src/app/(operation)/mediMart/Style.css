@@ -1,0 +1,125 @@
+.mediMart-bg {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.2;
+  filter: blur(147.25px);
+}
+
+.mediMart-bg-1 {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.2;
+  filter: blur(147.25px);
+}
+
+.mediMart-bg-2 {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.3;
+  filter: blur(147.25px);
+}
+
+.mediMart-bg-3 {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 7;
+  /* filter: blur(147.25px); */
+}
+
+
+.mediMart-bg-5 {
+  position: absolute;
+  flex-shrink: 0;
+  opacity: 0.4;
+  filter: blur(147.25px);
+  background: var(--Primary-Color, #eb148c);
+}
+
+.mediMart-bg-6 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  border-radius: 278px;
+  flex-shrink: 0;
+  opacity: 0.4;
+  filter: blur(130px);
+  background: var(--Primary-Color, #eb148c);
+}
+
+@media (min-width: 1280px) {
+  .mediMart-bg {
+    transform: translate(0px, -20px);
+    width: 278px;
+    height: 278px;
+    border-radius: 478px;
+    /* opacity: 0.2; */
+  }
+  .mediMart-bg-1 {
+    transform: translate(-81px, 33px);
+    width: 346px;
+    height: 346px;
+    border-radius: 346px;
+  }
+  .mediMart-bg-2 {
+    width: 278px;
+    height: 278px;
+    border-radius: 278px;
+    transform: translate(-51px, 420px);
+  }
+  .mediMart-bg-3 {
+    width: 138px;
+    height: 161px;
+    border-radius: 278px;
+    transform: translate(612px, 10px);
+  }
+  .mediMart-bg-5 {
+    width: 304px;
+    height: 304px;
+    border-radius: 304px;
+    transform: translate(960px, -35px);
+  }
+  .mediMart-bg-6 {
+    transform: translate(820px, 412px);
+  }
+}
+@media (min-width: 1536px) {
+  .mediMart-bg {
+    transform: translate(0px, -20px);
+    width: 278px;
+    height: 278px;
+    border-radius: 478px;
+    opacity: 0.2;
+  }
+  .mediMart-bg-1 {
+    transform: translate(-81px, 33px);
+    width: 346px;
+    height: 346px;
+    border-radius: 346px;
+  }
+  .mediMart-bg-2 {
+    width: 278px;
+    height: 278px;
+    border-radius: 278px;
+    transform: translate(-51px, 420px);
+  }
+  .mediMart-bg-3 {
+    width: 138px;
+    height: 161px;
+    border-radius: 278px;
+    transform: translate(612px, 10px);
+  }
+
+  .mediMart-bg-5 {
+    width: 304px;
+    height: 304px;
+    border-radius: 304px;
+    transform: translate(1600px, -35px);
+  }
+  .mediMart-bg-6 {
+    transform: translate(1620px, 412px);
+  }
+}

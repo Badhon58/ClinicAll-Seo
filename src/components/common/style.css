@@ -1,0 +1,53 @@
+.videocallstyle {
+  @apply mx-auto text-white   rounded-md min-h-[50vh] lg:min-h-[70vh] max-h-[75vh]  flex flex-col justify-between 2xl:justify-around h-full   bg-cover bg-center;
+}
+.step-item1 {
+  @apply relative flex flex-col justify-start items-center w-full;
+}
+
+.step-item1:not(:first-child):before {
+  @apply content-[""] bg-[#8F90A6] absolute w-full h-[3px] right-2/4 top-2/4 -translate-y-2/4;
+}
+.step-item2 {
+  @apply relative flex flex-col justify-start items-center w-full;
+}
+
+.step-item2:not(:first-child):before {
+  @apply content-[""] bg-[#EB148C] absolute w-full h-[3px] right-2/4 top-2/4 -translate-y-2/4;
+}
+
+.step {
+  @apply w-6 h-6 flex  z-10  bg-[url('/other/Steps.svg')] bg-cover bg-center bg-white;
+}
+.step2 {
+  @apply w-6 h-6 flex  z-10  bg-[url('/other/StepsItem.svg')] bg-cover bg-center bg-white;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-gray-200 px-2 text-sm py-1 font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10;
+}
+
+.box {
+  @apply absolute opacity-0 flex  w-[90%] justify-between group-hover:opacity-100 group-hover:duration-700  text-xs text-white  rounded-full -top-2 right-4;
+}
+.box1 {
+  @apply absolute opacity-0 flex  w-[90%] justify-end group-hover:opacity-100 group-hover:duration-700  text-xs text-white  rounded-full -top-2 right-4;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .printable-page {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+}

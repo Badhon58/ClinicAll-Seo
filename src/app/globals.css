@@ -1,32 +1,192 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  font-family: var(--font-clash-display), sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes appear1 {
+  from {
+    opacity: 0;
+    /* scale: 0.5; */
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animationblock1 {
+  animation: appear1 4s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
 }
-.btn {
-  @apply 2xl:px-[28px] py-2 2xl:py-[13px] lg:px-[14px] lg:py-[6px] text-center hover:bg-[#E2136E] lg:mt-3 xl:mt-5 2xl:mt-[32px] mt-2 border border-black hover:border-[#E2136E] rounded-md font-medium hover:text-white w-[170px];
+
+@keyframes appear2 {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
-.blogImage {
-  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-27102024T104059-bg1.png')];
+
+.animationblock2 {
+  animation: appear2 4s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.marquee-animation {
+  animation: marquee 35s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-animation:hover {
+  animation-play-state: paused;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #413e3f;
+}
+
+.medimartscroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.medimartscroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.medimartscroll::-webkit-scrollbar-thumb {
+  /* background-color: #EB148C;
+  opacity: 40; */
+  background-color: rgba(235, 20, 140, 0.4);
+}
+
+.no-spin::-webkit-outer-spin-button,
+.no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+.no-spin {
+  -moz-appearance: textfield;
+}
+.custom-ping-delay {
+  animation-delay: 3000ms;
+}
+
+.animatedbar {
+  @apply duration-300 cursor-pointer relative overflow-hidden after:h-[1px] after:w-full after:bottom-0 after:right-full after:bg-black after:absolute hover:after:translate-x-full after:duration-300;
+}
+.marquee-animation2 {
+  animation: marquee 100s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(3%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.mirror {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+  -moz-transform: rotateY(180deg); /* Firefox */
+}
+
+
+.responsive-drawer {
+  width: 30vw !important;
+  max-width: 100%;
+}
+
+@media (max-width: 968px) {
+  .responsive-drawer {
+    width: 50vw !important;
+  }
+}
+@media (max-width: 700px) {
+  .responsive-drawer {
+    width: 70vw !important;
+  }
+}
+@media (max-width: 500px) {
+  .responsive-drawer {
+    width: 90vw !important;
+  }
+}
+
+/* input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2.5px;
+  left: -1px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  box-shadow: #eb148c;
+  box-shadow: 0 0 0 2px white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2.5px;
+  left: -1px;
+  position: relative;
+  background-color: #eb148c;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #eb148c;
+  transition: box-shadow 0.3s ease;
+} */
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradient-move 1.5s infinite linear;
+  background-size: 200% 200%;
 }

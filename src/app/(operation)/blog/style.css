@@ -1,0 +1,55 @@
+.blogImage {
+  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-27102024T104059-bg1.png')];
+}
+.btn {
+  @apply 2xl:px-[28px] py-2 2xl:py-[13px] lg:px-[14px] lg:py-[6px] text-center hover:bg-[#E2136E] lg:mt-3 xl:mt-5 2xl:mt-[32px] mt-2 border border-black hover:border-[#E2136E] rounded-md font-medium hover:text-white w-[170px];
+}
+.default-style * {
+  all: revert; /* Resets everything so Tailwind won't leak in */
+}
+
+.default-style h1,
+.default-style h2,
+.default-style h3,
+.default-style h4 {
+  font-family: sans-serif;
+  color: #333;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+.default-style h1 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.default-style h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.default-style h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.default-style h4 {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.default-style ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 12px;
+}
+
+.default-style strong {
+  font-weight: 500;
+}
+.default-style p {
+  font-size: 12px;
+}

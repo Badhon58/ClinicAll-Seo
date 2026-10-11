@@ -1,9 +1,4 @@
-import React from 'react'
-
-const loading = () => {
-  return (
-    <div>loading</div>
-  )
+import PageLoading from "@/components/Seo/PageLoading";
+export default function Loading() {
+  return <PageLoading />;
 }
-
-export default loading

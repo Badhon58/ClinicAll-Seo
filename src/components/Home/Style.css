@@ -1,0 +1,263 @@
+.Home-bg {
+  position: absolute;
+  transform: translate(0px, 30px);
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 430px;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.2;
+  filter: blur(147.25px);
+}
+.Home-bg-1 {
+  position: absolute;
+  transform: translate(-285px, 115px);
+  width: 492px;
+  height: 492px;
+  flex-shrink: 0;
+  border-radius: 492px;
+  opacity: 0.2;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(147.25px);
+}
+.Home-bg-2 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 278px;
+  opacity: 0.2;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(147.25px);
+  transform: translate(-51px, 642px);
+}
+.Home-bg-3 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 278px;
+  opacity: 0.3;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(147.25px);
+  transform: translate(-87px, 988px);
+}
+.Home-bg-4 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 278px;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.3;
+  filter: blur(147.25px);
+}
+.Home-bg-5 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 278px;
+  opacity: 0.5;
+  filter: blur(147.25px);
+  background: var(--Primary-Color, #eb148c);
+}
+.Home-bg-6 {
+  position: absolute;
+  width: 278px;
+  height: 278px;
+  flex-shrink: 0;
+  border-radius: 278px;
+  opacity: 0.4;
+  filter: blur(147.25px);
+  background: var(--Primary-Color, #eb148c);
+}
+.Home-bg-7 {
+  position: absolute;
+  width: 164px;
+  height: 191px;
+  flex-shrink: 0;
+  border-radius: 150px;
+  opacity: 0.2;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(68px);
+}
+.Home-bg-8 {
+  position: absolute;
+  width: 122px;
+  height: 143px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  opacity: 0.2;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(68px);
+}
+@media (min-width: 1024px) {
+  .Home-bg-7 {
+    transform: translate(-120px, -120px);
+  }
+}
+@media (min-width: 1280px) {
+  .Home-bg-4 {
+    transform: translate(450px, 300px);
+  }
+  .Home-bg-5 {
+    transform: translate(990px, 40px);
+  }
+  .Home-bg-6 {
+    transform: translate(995px, 400px);
+    background: var(--Primary-Color, #eb148c);
+  }
+  .Home-bg-7 {
+    transform: translate(-120px, -120px);
+  }
+  .Home-bg-8 {
+    transform: translate(500px, -30px);
+  }
+}
+@media (min-width: 1536px) {
+  .Home-bg-4 {
+    transform: translate(500px, 291px);
+  }
+  .Home-bg-5 {
+    background: var(--Primary-Color, #eb148c);
+    transform: translate(1628px, 166px);
+  }
+  .Home-bg-6 {
+    transform: translate(1630px, 500px);
+    background: var(--Primary-Color, #eb148c);
+  }
+  .Home-bg-7 {
+    transform: translate(-100px, -140px);
+  }
+  .Home-bg-8 {
+    transform: translate(600px, -100px);
+  }
+}
+
+.my-element {
+  background-color: rgba(var(--Light-5-rgb, 255, 244, 244), 0.2);
+}
+.element {
+  width: 74px;
+  height: 87px;
+  position: absolute;
+  flex-shrink: 0;
+  top: 14px;
+  right: 14px;
+  /* gap: 0px; */
+  opacity: 0.8;
+  background: var(--Primary-Color, #eb148c);
+  backdrop-filter: blur(137.6px);
+  filter: blur(137.6px);
+}
+
+.slider-container {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.slick-dots {
+  position: absolute;
+  margin-top: 20px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #eb148c;
+  transition: color 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #eb148c;
+}
+
+.slick-dots li.slick-active {
+  transform: scale(1.2);
+  color: #eb148c;
+}
+
+/* .homestyle {
+  @apply 2xl:mx-auto text-white  2xl:w-[94%] rounded-md ;
+} */
+/* .homebg {
+  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-06012025T171435-mask-group.svg')] md:bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-23122024T172655-1440x620-web-banner-1.svg')] bg-cover bg-center;
+} */
+
+.btn {
+  @apply 2xl:px-[28px] py-2 2xl:py-[13px] lg:px-[14px] lg:py-[6px] text-center hover:bg-[#E2136E] lg:mt-3 xl:mt-5 2xl:mt-[32px] mt-2 border border-black hover:border-[#E2136E] rounded-md font-medium hover:text-white w-[170px];
+}
+
+.blogImage {
+  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-27102024T104059-bg1.png')];
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #f6f7f8 4%, #edeef1 25%, #f6f7f8 36%);
+  background-size: 1000px 100%;
+}
+
+/* .bgimage {
+  @apply bg-[url('https://clinicall-files.obs.as-south-208.rcloud.reddotdigitalit.com/upload-file-27102024T104059-bg1.png')];
+} */
+
+.whoweare1 {
+  @apply absolute -top-28 w-[194px]  -left-10 h-[227px] flex-shrink-0 opacity-40 rounded-full  blur-[100px] bg-[#eb148c];
+}
+.whoweare2 {
+  @apply absolute -top-64 -right-20  w-[484px] h-[484px] flex-shrink-0 opacity-40 rounded-full blur-[250px]  bg-[#eb148c];
+}
+.whoweare3 {
+  @apply absolute top-[45%] w-[194px]  -left-10 h-[227px] flex-shrink-0 opacity-40 rounded-full  blur-[100px] bg-[#eb148c];
+}
+
+.all-unset {
+  all: unset;
+}
+/* General styling for all headings h1-h4 */
+
+/* ----  */
+
+/* From Uiverse.io by Shoh2008 */ 
+.upbutton {
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  border-radius: 9999px;
+  transition: 0.5s;
+  font-weight: 700;
+  background: #E2136E;
+  cursor: pointer;
+  color: white;
+  
+  /* box-shadow: 0 0 10px #E2136E, inset 0 0 10px #E2136E; */
+}
+
+.upbutton:hover {
+  animation: a 0.5s 1 linear;
+}
+
+@keyframes a {
+  0% {
+    transform: scale(0.7, 1.3);
+  }
+
+  25% {
+    transform: scale(1.3, 0.7);
+  }
+
+  50% {
+    transform: scale(0.7, 1.3);
+  }
+
+  75% {
+    transform: scale(1.3, 0.7);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

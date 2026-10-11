@@ -1,0 +1,13 @@
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.custom-red-modal .rs-modal-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  /* background-color: white; Tailwind red-400  #eb148c */
+  /* border-radius: 0.5rem; rounded-lg */
+}

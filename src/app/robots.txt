@@ -1,0 +1,23 @@
+User-agent: BingBot
+Disallow: /Auth/userlogin
+Disallow: /Auth/userRegister
+Disallow: /Auth/docLogin
+Disallow: /Auth/docRegister
+Disallow: /account
+Disallow: /doctoraccount
+Disallow:/search
+Disallow: /*?*sessionid=
+Disallow: /*?*utm_
+
+User-agent: *
+Disallow: /Auth/userlogin
+Disallow: /Auth/userRegister
+Disallow: /Auth/docLogin
+Disallow: /Auth/docRegister
+Disallow: /account
+Disallow: /doctoraccount
+Disallow:/search
+Disallow: /*?*sessionid=
+Disallow: /*?*utm_
+
+Sitemap: https://theclinicall.com/sitemap.xml

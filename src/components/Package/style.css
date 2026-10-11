@@ -1,0 +1,10 @@
+.title{
+    @apply text-xl text-[#16020B] lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold text-center
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}

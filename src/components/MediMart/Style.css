@@ -1,0 +1,58 @@
+.mediMart-bg-4 {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  filter: blur(147.25px);
+}
+.mediMart-bg-9 {
+  position: absolute;
+  flex-shrink: 0;
+  background: var(--Primary-Color, #eb148c);
+  opacity: 0.5;
+  filter: blur(107.25px);
+}
+@media (min-width: 1280px) {
+  .mediMart-bg-4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    transform: translate(400px, 206px);
+    opacity: 0.5;
+  }
+  .mediMart-bg-9 {
+    width: 138px;
+    height: 161px;
+    border-radius: 278px;
+    transform: translate(0px, 0px);
+  }
+}
+@media (min-width: 1536px) {
+  .mediMart-bg-4 {
+    width: 256px;
+    height: 256px;
+    border-radius: 256px;
+    transform: translate(450px, 256px);
+    opacity: 0.4;
+  }
+  .mediMart-bg-9 {
+    width: 138px;
+    height: 161px;
+    border-radius: 278px;
+    transform: translate(-30px, -20px);
+  }
+}
+
+.address {
+  @apply flex items-center border  rounded-lg md:w-[78%]   py-2 px-4   my-2 cursor-pointer hover:bg-[#EB148C] hover:bg-opacity-10;
+}
+
+.productvariation {
+  @apply flex flex-col items-center justify-center border px-3 py-2 border-[#EB148C] rounded cursor-pointer;
+}
+.productvariationselect {
+  @apply flex flex-col items-center justify-center border px-3 py-2 border-[#EB148C] rounded bg-[#EB148C] text-white cursor-pointer;
+}
+
+.checkoutBox{
+  @apply p-6 border rounded-lg shadow-[6px_6px_35px_0px_rgba(16,_40,_81,_0.11)]
+}

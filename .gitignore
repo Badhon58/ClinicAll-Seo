@@ -28,9 +28,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (can opt-in for commiting if needed)
 .env*
 
 # vercel
@@ -39,3 +38,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# *.txt
+_mobilereceipt
+# middleware.ts
+file.txt
+Testss
+# CareGiver
+file.txt
+
+# app/api/aut
+/src/app/test

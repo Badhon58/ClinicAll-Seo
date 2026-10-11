@@ -1,0 +1,23 @@
+.title {
+  @apply absolute bottom-3 text-[#EB148C] capitalize bg-[#EBEBF0] rounded-r-full bg-opacity-80 py-2.5 pl-2 pr-9 text-base font-semibold 2xl:text-lg;
+}
+.wavebox {
+  clip-path: path(
+    "M0,100 C50,0 150,200 200,100 C250,0 350,200 400,100 C450,0 550,200 600,100 L600,600 L0,600 Z"
+  );
+  border-radius: 2rem;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.packagecss {
+  @apply bg-[#FFF4F4] border min-w-[360px] max-w-[365px] h-full flex flex-col rounded-[16px];
+}
+.checkoutBox {
+  @apply p-6 border rounded-lg shadow-[6px_6px_35px_0px_rgba(16,_40,_81,_0.11)]
+}
