@@ -42,7 +42,7 @@ export default function Home() {
       <Question />
       <Download />
       <Footer />
-      <SeoClientPage />
+      <Seopage />
       <ScrollButton />
     </>
   );
