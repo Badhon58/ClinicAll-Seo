@@ -11,25 +11,25 @@
 
 
 
-"use client";
-
-import DOMPurify from "dompurify";
+import DOMPurify from "isomorphic-dompurify";
 
 interface HtmlRendererProps {
-    html: string;
-    className?: string;
+  html: string;
+  className?: string;
 }
 
 export default function HtmlRenderer({
-    html,
-    className,
+  html,
+  className = "",
 }: HtmlRendererProps) {
-    return (
-        <div
-            className={className}
-            dangerouslySetInnerHTML={{
-                __html: DOMPurify.sanitize(html),
-            }}
-        />
-    );
+  const cleanHTML = DOMPurify.sanitize(html ?? "");
+
+  return (
+    <div
+      className={className}
+      dangerouslySetInnerHTML={{
+        __html: cleanHTML,
+      }}
+    />
+  );
 }
