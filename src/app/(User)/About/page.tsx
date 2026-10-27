@@ -4,66 +4,24 @@ import Loading from "./loading";
 import Services from "@/components/Home/Services";
 // import dynamic from "next/dynamic";
 import Hero from "./Hero";
-import { Metadata } from "next";
 import DoctorList from "@/components/Doctor/DoctorList";
 import DoctorFAQ from "@/components/Doctor/DoctorFAQ";
-type Props = {
-  searchParams: Promise<{
-    _catagory_name_?: string;
-  }>;
-};
+import type { Metadata } from 'next'
 
 
-export async function generateMetadata({
-  searchParams,
-}: Props): Promise<Metadata> {
-  const params = await searchParams;
-
-  const categoryName = params._catagory_name_;
-
-  const formattedCategoryName = categoryName
-    ? decodeURIComponent(categoryName)
-      .split("-")
-      .map(
-        (word) =>
-          word.charAt(0).toUpperCase() + word.slice(1)
-      )
-      .join(" ")
-    : "";
-
-  if (categoryName) {
-
-    return {
-      title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
-      description: `Find experienced ${formattedCategoryName} doctors in Bangladesh on CliniCall. Browse doctor profiles and book an online consultation with trusted specialists.`,
-      keywords: [
-        `${formattedCategoryName} doctor`,
-        `${formattedCategoryName} doctors Bangladesh`,
-        `best ${formattedCategoryName} doctor`,
-        "online doctor consultation",
-        "CliniCall",
-      ],
-      openGraph: {
-        title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
-        description: `Find experienced ${formattedCategoryName} doctors in Bangladesh and book an online consultation through CliniCall.`,
-        type: "website",
-      },
-    };
-  }
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "BD Doctor List | CliniCall",
-    description:
-      "Find the best doctors in Bangladesh on CliniCall. Browse our doctor list and get expert online consultations.",
-  };
+    title: 'Clinicall About',
+    description: "Learn about CliniCall, Bangladesh's leading telemedicine platform. Providing trusted online doctor consultations and healthcare services.",
+  }
 }
+
 const page = () => {
   return (
     <Suspense fallback={<Loading />}>
       {/* <DoctorList /> */}
       <Services />
       <Hero />
-      <DoctorFAQ />
     </Suspense>
 
   );
