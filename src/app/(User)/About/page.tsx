@@ -7,44 +7,56 @@ import Hero from "./Hero";
 import { Metadata } from "next";
 import DoctorList from "@/components/Doctor/DoctorList";
 import DoctorFAQ from "@/components/Doctor/DoctorFAQ";
-// const Hero = dynamic(() => import("./Hero"), {
-//   ssr: false,
-// });
-
-export const metadata: Metadata = {
-  title: "Online Doctor Consultation in Bangladesh | CliniCall",
-  description:
-    "Consult qualified doctors online in Bangladesh with CliniCall. Explore healthcare services, find experienced doctors, and book convenient online consultations.",
-  keywords: [
-    "online doctor consultation Bangladesh",
-    "online doctor BD",
-    "best doctors in Bangladesh",
-    "telemedicine Bangladesh",
-    "CliniCall",
-  ],
-  alternates: {
-    canonical: "https://theclinicall.com/",
-  },
-  openGraph: {
-    title: "Online Doctor Consultation in Bangladesh | CliniCall",
-    description:
-      "Find experienced doctors and access convenient online healthcare services with CliniCall in Bangladesh.",
-    url: "https://theclinicall.com/",
-    siteName: "CliniCall",
-    type: "website",
-    locale: "en_BD",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Online Doctor Consultation in Bangladesh | CliniCall",
-    description:
-      "Find experienced doctors and book online consultations with CliniCall.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+type Props = {
+  searchParams: Promise<{
+    _catagory_name_?: string;
+  }>;
 };
+
+
+export async function generateMetadata({
+  searchParams,
+}: Props): Promise<Metadata> {
+  const params = await searchParams;
+
+  const categoryName = params._catagory_name_;
+
+  const formattedCategoryName = categoryName
+    ? decodeURIComponent(categoryName)
+      .split("-")
+      .map(
+        (word) =>
+          word.charAt(0).toUpperCase() + word.slice(1)
+      )
+      .join(" ")
+    : "";
+
+  if (categoryName) {
+
+    return {
+      title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
+      description: `Find experienced ${formattedCategoryName} doctors in Bangladesh on CliniCall. Browse doctor profiles and book an online consultation with trusted specialists.`,
+      keywords: [
+        `${formattedCategoryName} doctor`,
+        `${formattedCategoryName} doctors Bangladesh`,
+        `best ${formattedCategoryName} doctor`,
+        "online doctor consultation",
+        "CliniCall",
+      ],
+      openGraph: {
+        title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
+        description: `Find experienced ${formattedCategoryName} doctors in Bangladesh and book an online consultation through CliniCall.`,
+        type: "website",
+      },
+    };
+  }
+
+  return {
+    title: "BD Doctor List | CliniCall",
+    description:
+      "Find the best doctors in Bangladesh on CliniCall. Browse our doctor list and get expert online consultations.",
+  };
+}
 const page = () => {
   return (
     <Suspense fallback={<Loading />}>
