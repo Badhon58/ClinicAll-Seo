@@ -5,6 +5,8 @@ import Services from "@/components/Home/Services";
 // import dynamic from "next/dynamic";
 import Hero from "./Hero";
 import { Metadata } from "next";
+import DoctorList from "@/components/Doctor/DoctorList";
+import DoctorFAQ from "@/components/Doctor/DoctorFAQ";
 // const Hero = dynamic(() => import("./Hero"), {
 //   ssr: false,
 // });
@@ -45,20 +47,13 @@ export const metadata: Metadata = {
 };
 const page = () => {
   return (
-    // <Suspense fallback={<Loading />}>
-    //   <div className="lg:-mt-4">
-    //     <Services />
-    //   </div>
-    //   <Hero />
-    // </Suspense>
-    <section>
-
-      <div className="lg:-mt-4">
-        <Services />
-      </div>
+    <Suspense fallback={<Loading />}>
+      {/* <DoctorList /> */}
+      <Services />
       <Hero />
+      <DoctorFAQ />
+    </Suspense>
 
-    </section>
   );
 };
 
