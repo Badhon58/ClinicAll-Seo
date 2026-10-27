@@ -6,11 +6,11 @@ import Services from "@/components/Home/Services";
 import Hero from "./Hero";
 import { Metadata } from "next";
 
-// type Props = {
-//   searchParams: Promise<{
-//     _catagory_name_?: string;
-//   }>;
-// };
+type Props = {
+  searchParams: Promise<{
+    _catagory_name_?: string;
+  }>;
+};
 
 
 // export async function generateMetadata({
@@ -57,10 +57,10 @@ import { Metadata } from "next";
 //   };
 // }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   return {
-    title: "Clinicall About",
-    description:"Learn about CliniCall, Bangladesh's leading telemedicine platform. Providing trusted online doctor consultations and healthcare services."
+    title: "Clinicall About | Test 19",
+    description: "Learn about CliniCall, Bangladesh's leading telemedicine platform. Providing trusted online doctor consultations and healthcare services."
   }
 }
 const page = () => {
