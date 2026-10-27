@@ -18,13 +18,13 @@ import Color from "@/components/Home/Color";
 import Partner from "@/components/Home/Partner";
 import ScrollButton from "@/components/Home/ScrollButton";
 import OverView from "@/components/Home/OverView";
-import SeoClientPage from "@/components/Seo/SeoClientPage";
+// import SeoClientPage from "@/components/Seo/SeoClientPage";
 export default function Home() {
   return (
-    <>
-      <Suspense fallback={<Loading />}>
-        <Navbar />
-      </Suspense>
+
+    <Suspense fallback={<Loading />}>
+      <Navbar />
+
       <section className="overflow-hidden">
         <Color />
         <Hero />
@@ -32,19 +32,21 @@ export default function Home() {
         <OverView />
         <Packages />
       </section>
+
       <Whoweare />
       <Doctors />
       <Specialize />
-      {/* <Partner />
+      <Partner />
       <Blog />
       <Client />
       <Diagnosis />
-      <Question /> */}
-      {/* <Download /> */}
+      <Question />
+      <Download />
       <Footer />
       <Seopage />
       <ScrollButton />
-    </>
+    </Suspense>
+
   );
 }
 

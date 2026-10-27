@@ -11,25 +11,25 @@
 
 
 
-import DOMPurify from "isomorphic-dompurify";
+// import DOMPurify from "isomorphic-dompurify";
 
-interface HtmlRendererProps {
-  html: string;
-  className?: string;
-}
+// interface HtmlRendererProps {
+//   html: string;
+//   className?: string;
+// }
 
-export default function HtmlRenderer({
-  html,
-  className = "",
-}: HtmlRendererProps) {
-  const cleanHTML = DOMPurify.sanitize(html ?? "");
+// export default function HtmlRenderer({
+//   html,
+//   className = "",
+// }: HtmlRendererProps) {
+//   const cleanHTML = DOMPurify.sanitize(html ?? "");
 
-  return (
-    <div
-      className={className}
-      dangerouslySetInnerHTML={{
-        __html: cleanHTML,
-      }}
-    />
-  );
-}
+//   return (
+//     <div
+//       className={className}
+//       dangerouslySetInnerHTML={{
+//         __html: cleanHTML,
+//       }}
+//     />
+//   );
+// }
