@@ -18,37 +18,37 @@ export async function generateMetadata({
 }: Props): Promise<Metadata> {
   const params = await searchParams;
 
-  const categoryName = params._catagory_name_;
+  // const categoryName = params._catagory_name_;
 
-  const formattedCategoryName = categoryName
-    ? decodeURIComponent(categoryName)
-      .split("-")
-      .map(
-        (word) =>
-          word.charAt(0).toUpperCase() + word.slice(1)
-      )
-      .join(" ")
-    : "";
+  // const formattedCategoryName = categoryName
+  //   ? decodeURIComponent(categoryName)
+  //     .split("-")
+  //     .map(
+  //       (word) =>
+  //         word.charAt(0).toUpperCase() + word.slice(1)
+  //     )
+  //     .join(" ")
+  //   : "";
 
-  if (categoryName) {
+  // if (categoryName) {
 
-    return {
-      title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
-      description: `Find experienced ${formattedCategoryName} doctors in Bangladesh on CliniCall. Browse doctor profiles and book an online consultation with trusted specialists.`,
-      keywords: [
-        `${formattedCategoryName} doctor`,
-        `${formattedCategoryName} doctors Bangladesh`,
-        `best ${formattedCategoryName} doctor`,
-        "online doctor consultation",
-        "CliniCall",
-      ],
-      openGraph: {
-        title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
-        description: `Find experienced ${formattedCategoryName} doctors in Bangladesh and book an online consultation through CliniCall.`,
-        type: "website",
-      },
-    };
-  }
+  //   return {
+  //     title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
+  //     description: `Find experienced ${formattedCategoryName} doctors in Bangladesh on CliniCall. Browse doctor profiles and book an online consultation with trusted specialists.`,
+  //     keywords: [
+  //       `${formattedCategoryName} doctor`,
+  //       `${formattedCategoryName} doctors Bangladesh`,
+  //       `best ${formattedCategoryName} doctor`,
+  //       "online doctor consultation",
+  //       "CliniCall",
+  //     ],
+  //     openGraph: {
+  //       title: `${formattedCategoryName} Doctors in Bangladesh | CliniCall`,
+  //       description: `Find experienced ${formattedCategoryName} doctors in Bangladesh and book an online consultation through CliniCall.`,
+  //       type: "website",
+  //     },
+  //   };
+  // }
 
   return {
     title: "About Us Test 11 | CliniCall",
