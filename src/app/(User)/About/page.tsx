@@ -45,12 +45,20 @@ export const metadata: Metadata = {
 };
 const page = () => {
   return (
-    <Suspense fallback={<Loading />}>
+    // <Suspense fallback={<Loading />}>
+    //   <div className="lg:-mt-4">
+    //     <Services />
+    //   </div>
+    //   <Hero />
+    // </Suspense>
+    <section>
+
       <div className="lg:-mt-4">
         <Services />
       </div>
       <Hero />
-    </Suspense>
+
+    </section>
   );
 };
 
