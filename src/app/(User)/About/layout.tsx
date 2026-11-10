@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar/Navbar";
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
 import Footer from "@/components/Footer/Footer";
