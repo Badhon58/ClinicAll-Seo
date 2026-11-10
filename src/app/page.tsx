@@ -18,6 +18,7 @@ import Color from "@/components/Home/Color";
 import Partner from "@/components/Home/Partner";
 import ScrollButton from "@/components/Home/ScrollButton";
 import OverView from "@/components/Home/OverView";
+import SeoClientPage from "@/components/Seo/SeoClientPage";
 // import SeoClientPage from "@/components/Seo/SeoClientPage";
 export default function Home() {
   return (
@@ -43,7 +44,8 @@ export default function Home() {
       <Question />
       <Download />
       <Footer />
-      <Seopage />
+      {/* <Seopage /> */}
+      <SeoClientPage />
       <ScrollButton />
     </Suspense>
 

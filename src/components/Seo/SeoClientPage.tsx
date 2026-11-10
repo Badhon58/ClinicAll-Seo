@@ -1,35 +1,68 @@
-// "use client";
-
-// import dynamic from "next/dynamic";
-// const Seopage = dynamic(() => import("./Seopage"), {
-//     ssr: false,
-// });
-
-// export default function SeoClientPage() {
-//     return <Seopage />;
-// }
+import { Metadata } from 'next';
+import React from 'react'
+type Props = {
+    searchParams: Promise<{
+        _catagory_name_?: string;
+    }>;
+};
 
 
+export async function generateMetadata({
+    searchParams,
+}: Props): Promise<Metadata> {
+    const params = await searchParams;
 
-// import DOMPurify from "isomorphic-dompurify";
+    const categoryName = "About US";
 
-// interface HtmlRendererProps {
-//   html: string;
-//   className?: string;
-// }
+    const formattedCategoryName = categoryName
+        ? decodeURIComponent(categoryName)
+            .split("-")
+            .map(
+                (word) =>
+                    word.charAt(0).toUpperCase() + word.slice(1)
+            )
+            .join(" ")
+        : "";
 
-// export default function HtmlRenderer({
-//   html,
-//   className = "",
-// }: HtmlRendererProps) {
-//   const cleanHTML = DOMPurify.sanitize(html ?? "");
+    if (categoryName) {
+        return {
+             title: "CliniCall - Best Online Doctor Consultation in BD",
+        description:
+            "CliniCall – The leading telemedicine platform in BD. Get expert online doctor consultations anytime, anywhere. trusted & secure healthcare.",
+            keywords: [
+                "About CliniCall",
+                "CliniCall Bangladesh",
+                "online healthcare Bangladesh",
+                "online doctor consultation Bangladesh",
+                "digital healthcare Bangladesh",
+                "telemedicine Bangladesh",
+                "healthcare services Bangladesh",
+            ],
 
-//   return (
-//     <div
-//       className={className}
-//       dangerouslySetInnerHTML={{
-//         __html: cleanHTML,
-//       }}
-//     />
-//   );
-// }
+            openGraph: {
+                title: "About CliniCall | Making Healthcare Accessible in Bangladesh",
+                description:
+                    "Discover CliniCall's mission to make quality healthcare accessible to everyone in Bangladesh through online doctor consultations and digital healthcare services.",
+                url: "https://theclinicall.com/about",
+                siteName: "CliniCall",
+                type: "website",
+                locale: "en_BD",
+            },
+
+        }
+    }
+
+    return {
+        title: "CliniCall - Best Online Doctor Consultation in BD",
+        description:
+            "CliniCall – The leading telemedicine platform in BD. Get expert online doctor consultations anytime, anywhere. trusted & secure healthcare.",
+    };
+}
+
+const SeoClientPage = () => {
+    return (
+        <div>SeoClientPage</div>
+    )
+}
+
+export default SeoClientPage
