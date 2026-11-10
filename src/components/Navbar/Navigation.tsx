@@ -80,7 +80,7 @@ const Navigation = () => {
         <Link href={"/"} className={`animatedbar`}>
           {t("Home")}
         </Link>
-        <Link href={"/About"} className={`animatedbar`}>
+        <Link href={"/About#about"} className={`animatedbar`}>
           {t("About Us")}
         </Link>
         <Dropdown

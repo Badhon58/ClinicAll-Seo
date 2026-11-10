@@ -15,7 +15,7 @@ type Props = {
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   return {
-    title: "Clinicall About | Test 19",
+    title: "Clinicall About | Test 28",
     description: "Learn about CliniCall, Bangladesh's leading telemedicine platform. Providing trusted online doctor consultations and healthcare services.",
     keywords: [
       "About CliniCall",
@@ -62,8 +62,11 @@ const page = () => {
   return (
     <Suspense fallback={<Loading />}>
       {/* <DoctorList /> */}
-      <Services />
-      <Hero />
+      <div id="about">
+
+        <Services />
+        <Hero />
+      </div>
     </Suspense>
 
   );
