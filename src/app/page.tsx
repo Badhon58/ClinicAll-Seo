@@ -46,28 +46,28 @@ export async function generateMetadata({
 
     if (categoryName) {
         return {
-             title: "CliniCall - Best Online Doctor Consultation in BD",
+             title: "CliniCall - Best Online Doctor Consultation in BD | Test 35",
         description:
             "CliniCall – The leading telemedicine platform in BD. Get expert online doctor consultations anytime, anywhere. trusted & secure healthcare.",
-            keywords: [
-                "About CliniCall",
-                "CliniCall Bangladesh",
-                "online healthcare Bangladesh",
-                "online doctor consultation Bangladesh",
-                "digital healthcare Bangladesh",
-                "telemedicine Bangladesh",
-                "healthcare services Bangladesh",
-            ],
+            // keywords: [
+            //     "About CliniCall",
+            //     "CliniCall Bangladesh",
+            //     "online healthcare Bangladesh",
+            //     "online doctor consultation Bangladesh",
+            //     "digital healthcare Bangladesh",
+            //     "telemedicine Bangladesh",
+            //     "healthcare services Bangladesh",
+            // ],
 
-            openGraph: {
-                title: "About CliniCall | Making Healthcare Accessible in Bangladesh",
-                description:
-                    "Discover CliniCall's mission to make quality healthcare accessible to everyone in Bangladesh through online doctor consultations and digital healthcare services.",
-                url: "https://theclinicall.com/about",
-                siteName: "CliniCall",
-                type: "website",
-                locale: "en_BD",
-            },
+            // openGraph: {
+            //     title: "About CliniCall | Making Healthcare Accessible in Bangladesh",
+            //     description:
+            //         "Discover CliniCall's mission to make quality healthcare accessible to everyone in Bangladesh through online doctor consultations and digital healthcare services.",
+            //     url: "https://theclinicall.com/about",
+            //     siteName: "CliniCall",
+            //     type: "website",
+            //     locale: "en_BD",
+            // },
 
         }
     }
